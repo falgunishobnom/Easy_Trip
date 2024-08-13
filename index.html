@@ -88,43 +88,78 @@
     <!-- Nav Bar Ead -->
     <!-- Start Hero -->
     <div class="flex mt-10 overflow-hidden">
-      <div class="w-9/12/12 ml-[30px] -mt-14">
-        <h2
-          class="text-3xl text-gray-500 font-header text-left mt-24 ml-48 uppercase font-medium"
-        >
-          Bringing Ease to Every Trip
-        </h2>
+      <div class="w-9/12 ml-[30px]">
         <h1
-          class="font-header text-6xl w-[520px] text-gray-700 text-left ml-48 leading-[65px] mt-2 uppercase font-bold"
+          class="font-header text-5xl w-[520px] text-gray-700 text-left ml-48 capitalize font-bold mt-4 tracking-tight"
         >
           Ease Your Way, Travel Today
         </h1>
+        <h2
+          class="text-3xl text-gray-500 font-header text-left mt-5 ml-48 capitalize font-medium"
+        >
+          Bringing Ease to Every Trip
+        </h2>
       </div>
       <div class="w-full">
         <img src="./images/BUS.svg" class="mr-[60rem] w-6/12" />
       </div>
     </div>
     <!-- Form Card Start -->
-    <div
-      class="w-[80%] bg-gradient-to-t from-white to-main mx-auto h-[245px] rounded-xl drop-shadow-2xl"
-    >
+    <div class="w-[80%] bg-white mx-auto h-[170px] rounded-3xl mt-5">
       <form>
-        <div class="grid grid-cols-3 gap-10">
-          <div class="bg-green-600 col-span-1">
-            <label>Form</label><br />
+        <div class="grid grid-cols-4 gap-5 p-10">
+          <div class="bg-white">
+            <label class="font-header text-xl mb-2 font-bold text-label"
+              >From</label
+            >
             <input
               type="text"
               placeholder="Find Location"
-              class="w-full h-10"
+              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
             />
           </div>
-          <div class="bg-blue-400"></div>
-          <div class="bg-red-700">
-            <label>To</label>
-            <input type="text" placeholder="Find Location" class="w-full" />
+          <div class="bg-white">
+            <label class="font-header text-xl mb-2 font-bold text-label"
+              >To</label
+            >
+            <input
+              type="text"
+              placeholder="Find Location"
+              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
+            />
+          </div>
+          <div class="bg-white">
+            <label class="font-header text-xl mb-2 font-bold text-label"
+              >Journey Date</label
+            >
+            <input
+              type="text"
+              placeholder="Find Date"
+              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
+            />
+          </div>
+          <div class="bg-white">
+            <label class="font-header text-xl mb-2 font-bold text-label"
+              >Return Date</label
+            >
+            <input
+              type="text"
+              placeholder="Find Date"
+              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
+            />
           </div>
         </div>
       </form>
+      <!-- Button -->
+      <div class="flex mx-auto bg-slate-400">
+        <div class="justify-center">
+          <button
+            class="bg-button h-10 w-44 p-10 text-center font-header font-semibold text-white"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

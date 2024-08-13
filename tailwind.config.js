@@ -6,6 +6,15 @@ module.exports = {
       colors: {
         main: "#ABBAAB",
       },
+      colors: {
+        border: "#dbdde0",
+      },
+      colors: {
+        label: "#00026e",
+      },
+      colors: {
+        button: "#EA2027",
+      },
       fontFamily: {
         header: ["Plus Jakarta Sans"],
       },
