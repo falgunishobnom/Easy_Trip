@@ -7,10 +7,11 @@ module.exports = {
         main: "#ABBAAB",
       },
       colors: {
-        border: "#dbdde0",
+        light: "#dbdbdb",
       },
+
       colors: {
-        label: "#00026e",
+        headline: "#00026e",
       },
       colors: {
         button: "#EA2027",

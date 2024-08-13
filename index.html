@@ -90,74 +90,72 @@
     <div class="flex mt-10 overflow-hidden">
       <div class="w-9/12 ml-[30px]">
         <h1
-          class="font-header text-5xl w-[520px] text-gray-700 text-left ml-48 capitalize font-bold mt-4 tracking-tight"
+          class="font-header font-extrabold text-5xl w-[520px] text-black text-left ml-48 uppercase mt-4 tracking-tight"
         >
           Ease Your Way, Travel Today
         </h1>
         <h2
-          class="text-3xl text-gray-500 font-header text-left mt-5 ml-48 capitalize font-medium"
+          class="text-3xl text-gray-600 font-header text-left mt-5 ml-48 uppercase font-light"
         >
-          Bringing Ease to Every Trip
+          Bringing <span class="font-semibold text-button">Ease</span> to Every
+          Trip
         </h2>
       </div>
-      <div class="w-full">
-        <img src="./images/BUS.svg" class="mr-[60rem] w-6/12" />
+      <div class="w-1/2">
+        <img src="./images/BUS.svg" class="mr-[60rem] w-6/12 mb-10" />
       </div>
     </div>
     <!-- Form Card Start -->
-    <div class="w-[80%] bg-white mx-auto h-[170px] rounded-3xl mt-5">
-      <form>
-        <div class="grid grid-cols-4 gap-5 p-10 relative">
-          <div class="bg-white">
-            <label class="font-header text-xl mb-2 font-bold text-label"
-              >From</label
-            >
-            <input
-              type="text"
-              placeholder="Find Location"
-              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
-            />
-          </div>
-          <div class="bg-white">
-            <label class="font-header text-xl mb-2 font-bold text-label"
-              >To</label
-            >
-            <input
-              type="text"
-              value="Chittagong"
-              placeholder="Find Location"
-              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
-            />
-          </div>
-          <div class="bg-white">
-            <label class="font-header text-xl mb-2 font-bold text-label"
-              >Journey Date</label
-            >
-            <input
-              type="text"
-              placeholder="Find Date"
-              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
-            />
-          </div>
-          <div class="bg-white">
-            <label class="font-header text-xl mb-2 font-bold text-label"
-              >Return Date</label
-            >
-            <input
-              type="text"
-              placeholder="Find Date"
-              class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
-            />
-          </div>
-          <div class="absolute flex justify-center w-full -bottom-3">
-            <button
-              class="bg-button rounded-lg px-8 py-3 text-center font-header font-semibold text-white"
-            >
-              Book Now
-            </button>
+    <div
+      class="w-[70%] bg-white mx-auto h-[180px] rounded-3xl mt-1 drop-shadow-sm"
+    >
+      <div class="grid grid-cols-4 gap-5 p-10 relative">
+        <div class="grid-cols-3 bg-white border-2 border-light p-4 rounded-xl">
+          <span
+            class="font-header text-sm mb-2 font-normal uppercase text-headline"
+            >From</span
+          >
+          <div class="font-bold uppercase text-headline text-xl">Dhaka</div>
+        </div>
+
+        <div class="grid-cols-3 bg-white border-2 border-light p-4 rounded-xl">
+          <span class="absolute -ml-14"
+            ><img src="./images/arrow-full.svg" alt="arrow"
+          /></span>
+          <span
+            class="font-header text-sm mb-2 font-normal uppercase text-headline"
+            >To</span
+          >
+          <div class="font-bold uppercase text-headline text-xl">
+            Cox's Bazar
           </div>
         </div>
-      </form>
+        <div class="grid-cols-3 bg-white border-2 border-light p-4 rounded-xl">
+          <span
+            class="font-header text-sm mb-2 font-normal uppercase text-headline"
+            >Journey Date</span
+          >
+          <div class="font-bold uppercase text-headline text-xl">
+            16 <span class="font-thin text-sm">Aug'24 Friday</span>
+          </div>
+        </div>
+        <div class="grid-cols-3 bg-white border-2 border-light p-4 rounded-xl">
+          <span
+            class="font-header text-sm mb-2 font-normal uppercase text-headline"
+            >Return Date</span
+          >
+          <div class="font-bold uppercase text-headline text-xl">
+            17 <span class="font-thin text-sm">Aug'24 Saturday</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex w-full justify-center absolute -bottom-5">
+        <button
+          class="text-lg uppercase bg-button px-7 py-2 text-white font-medium rounded-lg"
+        >
+          Search
+        </button>
+      </div>
     </div>
   </body>
 </html>
