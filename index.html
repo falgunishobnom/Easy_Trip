@@ -107,7 +107,7 @@
     <!-- Form Card Start -->
     <div class="w-[80%] bg-white mx-auto h-[170px] rounded-3xl mt-5">
       <form>
-        <div class="grid grid-cols-4 gap-5 p-10">
+        <div class="grid grid-cols-4 gap-5 p-10 relative">
           <div class="bg-white">
             <label class="font-header text-xl mb-2 font-bold text-label"
               >From</label
@@ -148,18 +148,15 @@
               class="w-full border-solid border border-border p-7 rounded-2xl placeholder:text-label placeholder:font-thin"
             />
           </div>
+          <div class="absolute flex justify-center w-full -bottom-3">
+            <button
+              class="bg-button rounded-lg px-8 py-3 text-center font-header font-semibold text-white"
+            >
+              Book Now
+            </button>
+          </div>
         </div>
       </form>
-      <!-- Button -->
-      <div class="flex mx-auto bg-slate-400">
-        <div class="justify-center">
-          <button
-            class="bg-button h-10 w-44 p-10 text-center font-header font-semibold text-white"
-          >
-            Book Now
-          </button>
-        </div>
-      </div>
     </div>
   </body>
 </html>
